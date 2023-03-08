@@ -1,0 +1,84 @@
+body{
+
+    background-color: rgba(198, 179, 32, 0.964) ;
+    color: rgb(9, 0, 0);
+    
+    }
+    
+    /* variabili */
+    
+    :root{
+      
+    
+      --yellow: rgba(248, 228, 76, 0.964) ;
+      --black: rgba(1, 1, 17, 0.412);
+        
+       
+    }
+    
+  
+    
+   
+    
+    /* buttons */
+    
+    #btnCust{
+        height: 70px;
+        width: 180px;
+        background-color: var(--yellow);
+        font-weight: bold;
+        border: 3px solid var(--black);
+        margin-top: 25px;
+        border-radius: 20px;
+        box-shadow: 2px 2px 20px black;
+        
+    
+    }
+    
+    
+    #addContattiBtn , #removedContattiBtn{
+    
+        height: 70px;
+        width: 150px;
+        background-color: var(--yellow);
+        font-weight: bold;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        box-shadow: 2px 2px 20px black;
+        border: 3px solid var(--black);
+    
+       
+        
+    }
+    
+    .btn-outline{
+    
+        background-color: var(--yellow);
+        border: 2px solid var(--black);
+        box-shadow: 2px 2px 8px black;
+    }
+    
+    /* cards */
+    
+    h2{
+    
+    font-size: 25px;
+    margin-bottom: 50px;
+    }
+    
+    .icon{
+        padding: 10px;
+    }
+    .card-custom{
+    
+        background-color: var(--yellow);
+        color: black;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px var(--black);
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 10px;
+        box-shadow: 2px 2px 6px black;
+        margin-top: 20px;
+       
+    }
